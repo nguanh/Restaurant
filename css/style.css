@@ -1,0 +1,129 @@
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
+}
+
+.gallery-img{
+    max-height: 512px;
+}
+
+
+#myCarousel{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.center-content{
+    text-align: center;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+@media (max-width: 767px) {
+    body {
+        font-size: 1.8vh;
+    }
+    h1{
+        font-size: 4vh;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+
+        font-size: 2vh;
+    }
+
+    h1{
+        font-size: 3vh ;
+    }
+
+    h3{
+        font-size: 2.4vh;
+    }
+}
+
+
+#map{
+    height: 200px;
+    width: 400px;
+}
+
+.big-price{
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.v-center{
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.menu-desc{
+    height: 80px;
+}
+
+.menu-price{
+    height: 80px;
+    text-align: center;
+    line-height: 90px;
+}
+
+.menu-item{
+    border-bottom: 2px black solid;
+}
+
+.nav-text{
+    text-align: center;
+}
+
+.nav-image{
+    width: 200px;
+    height: 96px;
+}
+
+.nav-section{
+     padding: 0 !important;
+     border-right: solid 2px black;
+ }
+
+
+li.active{
+    background-color: rebeccapurple;
+}
+.nav-section>p{
+    background-color: purple;
+    color: white;
+    padding-bottom: 0;
+}
+
+.nav-padding{
+    margin-bottom: 0px;
+}
+
+
+.footer{
+    margin-top: 30px;
+
+    background-color: #eee;
+
+}
+
+.impressum>a{
+    float: right;
+}
+
+.footer-element{
+    margin-bottom: 30px;
+}
+
+.information>section{
+    margin-bottom: 30px;
+}
